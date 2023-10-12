@@ -1,4 +1,4 @@
 package com.backend.storage.api.utility;
 
-public class CustomException {
+public class BackendException {
 }
