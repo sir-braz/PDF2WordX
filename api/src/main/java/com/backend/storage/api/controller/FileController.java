@@ -23,7 +23,11 @@ public class FileController {
 
     @GetMapping("/api/convert/image/{filed}")
     public ResponseEntity<String> convertImage(@PathVariable String field){
-
+        try{
+            return null;
+        }catch (BackendException ex){
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
+        }
     }
 
     @GetMapping("/api/convert/html/{field}")
