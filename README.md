@@ -85,14 +85,13 @@ Unit tests have been implemented using JUnit and Mockito. Run the tests with:
 
 - [x] Create base project with Spring Initializr
 - [x] Configure project with necessary dependencies
-- [] Implement entity layer 
-- [] Implement relationship between 
+- [x] Implement entity layer 
 - [] Implement unit tests in controller
 - [] Implement unit tests in controller
 - [x] Create controller, service, and repository layers
 - [] Integrate authentication service with JWT (if necessary)
 - [] Implement authorization filters to protect endpoints (if necessary)
-- [] Implement error and exception handling
-- [] Complete documentation in README.md
-- [] Dockerize the application with Dockerfile and Docker Compose
+- [x] Implement error and exception handling
+- [x] Complete documentation in README.md
+- [x] Dockerize the application with Dockerfile and Docker Compose
 
