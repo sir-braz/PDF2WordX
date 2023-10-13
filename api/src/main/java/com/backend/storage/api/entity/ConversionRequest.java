@@ -1,12 +1,15 @@
 package com.backend.storage.api.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+
+import javax.persistence.*;
 
 @Entity
 @Table(name = "conversionrequest")
 public class ConversionRequest {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @Column(name = "sourcefilerequest")
     private String sourceFileRequest;
