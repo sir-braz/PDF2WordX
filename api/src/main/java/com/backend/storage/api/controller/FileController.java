@@ -14,11 +14,15 @@ public class FileController {
 
     @GetMapping("/api/convert/text/{field}")
     public ResponseEntity<String> convertText(@PathVariable String field){
-        
+
     }
 
     @GetMapping("/api/convert/image/{filed}")
+    public ResponseEntity<String> convertImage(@PathVariable String field){
+
+    }
 
     @GetMapping("/api/convert/html/{field}")
+
 
 }
